@@ -4,4 +4,3 @@ exit 1
 else echo "$1"
      echo "$2"
 fi
-
