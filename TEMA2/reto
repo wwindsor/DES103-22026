@@ -1,0 +1,17 @@
+Ejercicio 1 - Analizador de archivos
+crear un script llamado:
+analizar_archivo.sh
+El script debe recibir un archivo como argumento:
+./analizar_archivo.sh datos.txt
+El programa debe contener obligatoriamente estas fuciiones:
+validar_argumentos()
+validar_archivo()
+obtener_lineas()
+obtener_tamanio()
+
+El programa debe mostrar algo parecido como:
+============= INFORMACION DEL ARCHIVO =============
+Archivo: datos.txt
+Lineas: 10
+Tamaño: 1234 bytes
+Estado: Archivo válido

@@ -1,0 +1,28 @@
+Crear un archivo
+seguridad.log
+2026-08-07 08:10 LOGIN OK usuario=admin
+2026-08-07 08:12 LOGIN FAILED usuario=juan
+2026-08-07 08:14 LOGIN FAILED usuario=pedro
+2026-08-07 08:16 LOGIN OK usuario=maria
+2026-08-07 08:20 LOGIN FAILED usuario=juan
+2026-08-07 08:23 LOGIN FAILED usuario=juan
+
+auditoria.sh
+
+./auditoria.sh seguridad.log
+
+implementar 4 funciones
+
+validar_log()
+contar_exitos()
+contar_fallos()
+generar_estado()
+
+usuario_mas_fallido()
+
+Resultado
+===========Auditoria==============
+Archivo analizado: seguridad.log
+Accesos exitosos: 2
+Accesos fallidos: 4
+Estado: Alerta
