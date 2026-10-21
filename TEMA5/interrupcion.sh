@@ -1,4 +1,4 @@
-#!/bin/bash​
+#!/bin/bash
 
 trap 'echo "Interrupción detectada"; exit 1' SIGINT
 
